@@ -6,34 +6,33 @@ var chocolateBars = [
   'skittles'];
 
 function addElementToBeginningOfArray() {
-  var array = [1]
+  var array = [1];
 
   array.unshift("foo");
 
-  return (array)
 }
 
 function destructivelyAddElementToBeginningOfArray() {
-  var array = [1]
+  var array = [1];
 
-  array.unshift("foo")
+  array.unshift("foo");
 
-  return (array)
+  return (array);
 
 }
 
 function addElementToEndOfArray() {
-  var array = [1]
+  var array = [1];
 
   array.push("foo");
 
-  return (array)
+  return (array);
 }
 
 function destructivelyAddElementToEndOfArray() {
-  var array = [1]
+  var array = [1];
 
   array2 = [...array, "foo"];
 
-  return (array2)
+  return (array2);
 }
